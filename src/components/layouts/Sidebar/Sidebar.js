@@ -50,12 +50,12 @@ const Sidebar = ()=>{
             <Link href="/homepage" className={`${styles.link}`}><TiHome title='Home Page'/><span className={`${styles.textLink} ${!isSideBarPop&&styles.displayNone}`}>Home Page</span></Link>
             <Link href="/portfolio" className={`${styles.link}`}><SiDocsdotrs title='Portfolio' /><span className={`${styles.textLink} ${!isSideBarPop&&styles.displayNone}`}>Portfolio</span></Link>
             <Link href="/cv" className={`${styles.link}`}><AiOutlinePaperClip title='CV' /><span className={`${styles.textLink} ${!isSideBarPop&&styles.displayNone}`}>CV</span></Link>
-            <Link href="#" className={`${styles.link}`}><MdAddIcCall title='Hire Me !' /><span className={`${styles.textLink} ${!isSideBarPop&&styles.displayNone}`}>Hire Me !</span></Link>
+            <Link href="/hireme" className={`${styles.link}`}><MdAddIcCall title='Hire Me !' /><span className={`${styles.textLink} ${!isSideBarPop&&styles.displayNone}`}>Hire Me !</span></Link>
         </div>
         <div className={`${styles.container3} ${!isSideBarPop&&styles.displayNone} d-flex justify-content-evenly `}>
-            <Link href="#" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Email'><FiMail /></Link>
-            <Link href="#" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Github'><FaGithub /></Link>
-            <Link href="#" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Linkedin'><FaLinkedin /></Link>
+            <Link href="mailto:evander@gmail.com" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Email'><FiMail /></Link>
+            <Link href="https://github.com/eotambunan" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Github'><FaGithub /></Link>
+            <Link href="https://www.linkedin.com/in/eotambunan/" className={`${styles.icon} ${!isSideBarPop&&styles.displayNone}`} title='Linkedin'><FaLinkedin /></Link>
         </div>
         </div>
         </>

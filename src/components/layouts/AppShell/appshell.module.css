@@ -26,4 +26,11 @@
 .children{
     z-index: 1;
     box-sizing: border-box;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .children{
+    padding: 30px;
+  }
 }

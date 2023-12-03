@@ -6,7 +6,7 @@ import Link from 'next/link';
 const cv = ()=>{
     return (
         <div className={`${styles.container}`}>
-            <div className={`${styles.content}`}>
+            <div className={`${styles.content} d-flex justify-content-center`}>
                 <Image src='/cv.jpg' className={`${styles.image}`}></Image>
             </div>
         </div>

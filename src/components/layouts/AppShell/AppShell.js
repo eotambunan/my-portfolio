@@ -7,8 +7,8 @@ const AppShell = ({ children }) => {
         <div className={`${styles.container}`}>
             <div className={`${styles.background}`}></div>
             <Sidebar />
-            <Row>
-                <Col className={styles.children} md={{ span: 8, offset: 2 }}>
+            <Row className={styles.row}>
+                <Col className={styles.children} lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 2 }}  >
                     {children}
                 </Col>
             </Row>

@@ -6,9 +6,13 @@
     background-color: white;
     border: 10px solid black;
     border-radius: 30px;
-    padding: 5%;
-    width: 100%;
-}
-.image{
+    padding: 1%;
     width: 80%;
+}
+.hire{
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style-type: none
 }
