@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.content {
+    margin-bottom: 10px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 5%;
+    width: 100%;
+}
+.container1 {
+    border-right: 2px solid black;
+}
+.li {
+    font-weight: bold;
+}
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1); /* Ukuran normal */
+    }
+    50% {
+        transform: scale(1.2); /* Ukuran besar */
+    }
+    100% {
+        transform: scale(1); /* Kembali ke ukuran normal */
+    }
+}
+.containerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.link {
+    font-size: 2rem;
+    animation: scaleAnimation 2s infinite;
+}
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.galleryImage, .galleryImagePhone {
+    width: 45%;
+    margin: 10px;
+    transition: 500ms;
+}
+
+.galleryImage:hover{
+    transform: scale(2);
+}

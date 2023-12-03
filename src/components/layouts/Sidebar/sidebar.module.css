@@ -1,0 +1,119 @@
+.container{
+    height: 100vh;
+    width: 25vw;
+    background-color: rgba(1, 17, 167, 0.8);
+    transition: 100ms;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+}
+.containerHide{
+    width: 5vw;
+    transition: 500ms;
+}
+.sidebarButton{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    background-color: purple;
+    border-radius: 100%;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%);
+    transition: 1000ms ease-out;
+}
+
+.sidebarButton:hover{
+    /* border: 5px solid rgba(1, 17, 167, 0.2); */
+    transition: 500ms;
+}
+.sidebarButtonHide{
+    /* rotate: 180deg; */
+    transform: translateX(50%) rotateY(540deg);
+    transition: 1000ms ease-out;
+}
+
+.container1{
+    padding-top: 5%;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container2{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container3{
+    width: 80%;
+    height: 10%;
+    align-items: end;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.image{
+    width: 60%;
+    border: 2px solid white;
+}
+.name{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.containerSkill{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15%;
+    padding: 5px;
+}
+.skill{
+    font-size: 2rem;
+    color: rgb(61, 0, 61);
+}
+.link{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: right;
+    margin-right: auto;
+    margin-left: 20px;
+    transition: 500ms;
+}
+.link:hover{
+    transform: translateX(10%);
+    text-decoration: underline;
+}
+.textLink{
+    margin-left: 30px;
+}
+.icon{
+    font-size: 50px;
+    color: rgb(61, 0, 61);
+    transition: 200ms;
+}
+.icon:hover{
+    transform: translateY(-10%);
+}
+
+.displayNone{
+    display: none;
+    opacity: 0;
+    /* visibility: visible; */
+}
