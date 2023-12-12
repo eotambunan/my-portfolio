@@ -46,14 +46,14 @@ const jimboz = () => {
                     Gallery
                 </h1>
                 <div className={`${styles.galleryContainer}`}>
-                    <Image src="/jimboz/desktop1.PNG" className={`${styles.galleryImage}`}></Image>
-                    <Image src="/jimboz/desktop2.PNG" className={`${styles.galleryImage}`}></Image>
-                    <Image src="/jimboz/desktop3.PNG" className={`${styles.galleryImage}`}></Image>
-                    <Image src="/jimboz/desktop4.PNG" className={`${styles.galleryImage}`}></Image>
-                    <Image src="/jimboz/hp3.PNG" className={`${styles.galleryImagePhone}`}></Image>
-                    <Image src="/jimboz/hp2.PNG" className={`${styles.galleryImagePhone}`}></Image>
-                    <Image src="/jimboz/hp1.PNG" className={`${styles.galleryImagePhone}`}></Image>
-                    <Image src="/jimboz/hp4.PNG" className={`${styles.galleryImagePhone}`}></Image>
+                    <Image src="/jimboz/desktop1.png" className={`${styles.galleryImage}`}></Image>
+                    <Image src="/jimboz/desktop2.png" className={`${styles.galleryImage}`}></Image>
+                    <Image src="/jimboz/desktop3.png" className={`${styles.galleryImage}`}></Image>
+                    <Image src="/jimboz/desktop4.png" className={`${styles.galleryImage}`}></Image>
+                    <Image src="/jimboz/hp3.png" className={`${styles.galleryImagePhone}`}></Image>
+                    <Image src="/jimboz/hp2.png" className={`${styles.galleryImagePhone}`}></Image>
+                    <Image src="/jimboz/hp1.png" className={`${styles.galleryImagePhone}`}></Image>
+                    <Image src="/jimboz/hp4.png" className={`${styles.galleryImagePhone}`}></Image>
                 </div>
             </div>
         </div>
