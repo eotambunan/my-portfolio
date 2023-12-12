@@ -2,8 +2,8 @@ import styles from "./homepage.module.css";
 
 const homepage = () => {
     return (
-        <div className={`${styles.container} position-relative`}>
-            <div className={`${styles.content} position-absolute top-50 start-50 translate-middle`}>
+        <div className={`${styles.container}`}>
+            <div className={`${styles.content}`}>
                 <h1>Hi I'm Evander</h1>
                 <p>
                     Welcome to my quirky little corner of the internet – where coding meets creativity! I'm a Fullstack Developer Junior with a passion for making the web a more interesting place, one line of code at a time. So, grab your

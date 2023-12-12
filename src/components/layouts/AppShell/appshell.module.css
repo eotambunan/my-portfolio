@@ -2,10 +2,12 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 .background{
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: url('/background.jpg') center/cover no-repeat fixed;
   z-index: -1;
@@ -20,17 +22,22 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
   }
+  .row{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .sidebar{
     z-index: 10;
   }
 .children{
     z-index: 1;
-    box-sizing: border-box;
-    padding-right: 30px;
+    /* background-color: aqua; */
 }
 
-@media only screen and (max-width: 767px) {
+
+/* @media only screen and (max-width: 767px) {
   .children{
     padding: 30px;
   }
-}
+} */

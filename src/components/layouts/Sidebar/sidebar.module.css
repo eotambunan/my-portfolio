@@ -12,6 +12,7 @@
 .containerHide{
     width: 5vw;
     transition: 500ms;
+    justify-content: center;
 }
 .sidebarButton{
     width: 40px;
@@ -28,10 +29,11 @@
     right: 0;
     transform: translate(50%);
     transition: 1000ms ease-out;
+    color: white;
 }
 
 .sidebarButton:hover{
-    /* border: 5px solid rgba(1, 17, 167, 0.2); */
+    border: 5px solid rgba(1, 17, 167, 0.2);
     transition: 500ms;
 }
 .sidebarButtonHide{
@@ -58,10 +60,12 @@
 .container3{
     width: 80%;
     height: 10%;
-    align-items: end;
+    display: flex;
+    align-items: center;
     border: 5px solid black;
     border-radius: 10px;
     background-color: white;
+    justify-content: space-around;
 }
 .image{
     width: 60%;
@@ -91,22 +95,31 @@
     color: white;
     text-decoration: none;
     margin-top: 10px;
-    text-align: right;
-    margin-right: auto;
-    margin-left: 20px;
+    text-align: center;
     transition: 500ms;
+}
+.linkPop{
+    margin-right: auto;
+    margin-left: 10px;
+
 }
 .link:hover{
     transform: translateX(10%);
     text-decoration: underline;
 }
+.active{
+    color: rgb(224, 33, 129);
+}
 .textLink{
     margin-left: 30px;
 }
 .icon{
-    font-size: 50px;
+    font-size: 4rem;
     color: rgb(61, 0, 61);
     transition: 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icon:hover{
     transform: translateY(-10%);
@@ -115,7 +128,6 @@
 .displayNone{
     display: none;
     opacity: 0;
-    /* visibility: visible; */
 }
 
 @media only screen and ( min-width: 768px) and (max-width: 1250px) {
@@ -128,9 +140,60 @@
 }
 @media only screen and (max-width: 767px) {
     .container{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .container2{
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    .sidebarButton{
         display: none;
     }
-    .containerHide{
-        width: 8vw;
+    .link:hover{
+        transform: translate(0%);
+    }
+    .container1 {
+        display: none;
+    }
+    .container3{
+        height: 100px;
+        display: none !important;
+    }
+    .link{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        text-decoration: underline;
+    }
+    .link:hover{
+        background-color: rgba(1, 11, 107, 0.8);
     }
 }
+
+/* @media only screen and (max-height: 750px) {
+    .container{
+        width: 30vw;
+    }
+    .containerHide{
+        padding-top: 0;
+        width: 8vw;
+    }
+    .container2{
+        justify-content: center;
+    }
+    .link{
+        font-size: 1.5rem;
+    }
+} */

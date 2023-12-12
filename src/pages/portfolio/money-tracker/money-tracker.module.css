@@ -25,7 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 5vw;
+    width: 8vw;
+    height: 50px;
     transition: 300ms;
 }
 .backButton:hover{
@@ -86,6 +87,14 @@
 .galleryImage:hover, .galleryImagePhone:hover{
     transform: scale(1.5);
 }
+
+@media only screen and (max-width:992px) {
+    .backButton{
+        width: 12vw;
+    }
+}
+
+
 @media only screen and (max-width:576px) {
     .backButton{
         width: 20vw;

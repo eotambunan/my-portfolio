@@ -2,10 +2,10 @@ import styles from "./hireme.module.css";
 
 const hireme = () => {
     return (
-        <div className={`${styles.container} position-relative`}>
-            <div className={`${styles.content} position-absolute top-50 start-50 translate-middle`}>
+        <div className={`${styles.container}`}>
+            <div className={`${styles.content}`}>
                 <h1>Hire Me</h1>
-                <p>I am currently available for hire and open to any ideas of cooperation.</p>
+                <p className={`${styles.parag}`}>I am currently available for hire and open to any ideas of cooperation.</p>
                 <div className={`${styles.hire}`}>
                     <ul>
                         <li>Email</li>
