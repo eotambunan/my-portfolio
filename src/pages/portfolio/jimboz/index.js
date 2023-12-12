@@ -46,7 +46,7 @@ const jimboz = () => {
                     Gallery
                 </h1>
                 <div className={`${styles.galleryContainer}`}>
-                    <Image src="/jimboz/desktop1.png" className={`${styles.galleryImage}`}></Image>
+                    <Image src="/jimboz/desktop1.jpg" className={`${styles.galleryImage}`}></Image>
                     <Image src="/jimboz/desktop2.png" className={`${styles.galleryImage}`}></Image>
                     <Image src="/jimboz/desktop3.png" className={`${styles.galleryImage}`}></Image>
                     <Image src="/jimboz/desktop4.png" className={`${styles.galleryImage}`}></Image>
