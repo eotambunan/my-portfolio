@@ -41,7 +41,7 @@ const portfolio = () => {
                 <h1>Money Tracker</h1>
                 <Row>
                     <Col md={"4"} className={`${styles.thumbnailContainer}`}>
-                        <Image src="/montrack/thumbnail.png" className={`${styles.thumbnail}`}></Image>
+                        <Image src="/montrack/thumbnail.PNG" className={`${styles.thumbnail}`}></Image>
                     </Col>
                     <Col md={"8"}>
                         <h4>This website is created so that you can record every expense and income that occurs on a daily basis</h4>
