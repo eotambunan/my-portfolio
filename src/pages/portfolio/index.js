@@ -13,7 +13,7 @@ const portfolio = () => {
                 <h1>Jimboz Inventory Management System</h1>
                 <Row>
                     <Col md={"4"} className={`${styles.thumbnailContainer}`}>
-                        <Image src="/Jimboz/thumbnail.png" className={`${styles.thumbnail}`}></Image>
+                        <Image src="/jimboz/thumbnail.png" className={`${styles.thumbnail}`}></Image>
                     </Col>
                     <Col md={"8"}>
                         <h4>Jimboz is a web application designed to assist you in efficiently managing and showcasing your inventory.</h4>
