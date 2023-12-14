@@ -44,6 +44,7 @@ const moneyTracker = () => {
                             <li>Single Page Application</li>
                             <li>MVCS Design Pattern</li>
                             <li>CI/CD</li>
+                            <li>API Documentation</li>
                         </ul>
                         <div className={`${styles.containerLink}`}>
                         <p className={`${styles.link}`}><a href="https://griyadandelion.space" target="_blank"><RiArrowRightDoubleLine />Try it<RiArrowLeftDoubleLine /></a></p>

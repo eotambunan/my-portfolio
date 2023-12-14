@@ -25,6 +25,7 @@
     .content{
         font-size: .8rem;
         width: 100%;
+        margin-top: -200px;
     }
     
 }

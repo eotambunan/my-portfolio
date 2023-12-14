@@ -60,7 +60,7 @@ const portfolio = () => {
                             <p className={`${styles.technologiesList}`}>NextJS</p>
                             <p className={`${styles.technologiesList}`}>Bootstrap</p>
                             <p className={`${styles.technologiesList}`}>Jest</p>
-                            <p className={`${styles.technologiesList}`}>JWT</p>
+                            <p className={`${styles.technologiesList}`}>Swagger</p>
                         </div>
                     </Col>
                 </Row>
